@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 180" width="100%" height="100%" fill="none" class="bubble-cat-svg" aria-label="Bubble the cat">
+  <defs>
+    <filter id="cat-shadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#06152D" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <!-- Tail -->
+  <g class="cat-tail-group">
+    <path class="cat-tail" d="M150 145 C175 140 185 110 175 90 C170 80 160 85 162 95 C165 110 155 130 138 138" stroke="#7A6858" stroke-width="12" stroke-linecap="round" fill="none"/>
+    <path d="M173 95 C172 90 165 92 165 98" stroke="#4A3B32" stroke-width="4" stroke-linecap="round" fill="none"/>
+    <path d="M175 110 C170 112 163 118 160 125" stroke="#4A3B32" stroke-width="4" stroke-linecap="round" fill="none"/>
+  </g>
+
+  <!-- Paws peeking / front paws -->
+  <g class="cat-paws">
+    <ellipse cx="68" cy="155" rx="16" ry="12" fill="#EADCCB" filter="url(#cat-shadow)"/>
+    <path d="M62 153 L62 162 M72 153 L72 162" stroke="#7A6858" stroke-width="2" stroke-linecap="round"/>
+    
+    <ellipse cx="132" cy="155" rx="16" ry="12" fill="#EADCCB" filter="url(#cat-shadow)"/>
+    <path d="M126 153 L126 162 M136 153 L136 162" stroke="#7A6858" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <!-- Body -->
+  <path d="M50 155 C50 105 70 95 100 95 C130 95 150 105 150 155 C150 165 50 165 50 155 Z" fill="#8C7A6B" filter="url(#cat-shadow)"/>
+  <!-- Body tabby stripes -->
+  <path d="M100 98 L100 120" stroke="#4A3B32" stroke-width="4" stroke-linecap="round"/>
+  <path d="M82 108 L90 125" stroke="#4A3B32" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M118 108 L110 125" stroke="#4A3B32" stroke-width="3.5" stroke-linecap="round"/>
+  <!-- Chest fluff -->
+  <path d="M80 135 C88 150 112 150 120 135 C115 145 85 145 80 135 Z" fill="#F4ECE1"/>
+
+  <!-- Ears -->
+  <g class="cat-ears">
+    <!-- Left ear -->
+    <path d="M52 75 L38 25 C36 20 45 22 55 35 L72 58 Z" fill="#7A6858"/>
+    <path d="M48 65 L42 32 C42 30 48 33 54 42 L64 56 Z" fill="#E8B4B8"/>
+    <!-- Right ear -->
+    <path d="M148 75 L162 25 C164 20 155 22 145 35 L128 58 Z" fill="#7A6858"/>
+    <path d="M152 65 L158 32 C158 30 152 33 146 42 L136 56 Z" fill="#E8B4B8"/>
+  </g>
+
+  <!-- Head -->
+  <ellipse cx="100" cy="80" rx="52" ry="44" fill="#8C7A6B" filter="url(#cat-shadow)"/>
+
+  <!-- Head Tabby stripes -->
+  <g class="cat-stripes" stroke="#4A3B32" stroke-linecap="round">
+    <path d="M100 42 L100 56" stroke-width="4"/>
+    <path d="M88 45 L91 58" stroke-width="3.5"/>
+    <path d="M112 45 L109 58" stroke-width="3.5"/>
+    <!-- Cheek stripes -->
+    <path d="M54 78 L66 80" stroke-width="3"/>
+    <path d="M52 86 L64 87" stroke-width="3"/>
+    <path d="M146 78 L134 80" stroke-width="3"/>
+    <path d="M148 86 L136 87" stroke-width="3"/>
+  </g>
+
+  <!-- Cream muzzle -->
+  <path d="M82 85 C82 76 92 74 100 77 C108 74 118 76 118 85 C118 96 108 102 100 100 C92 102 82 96 82 85 Z" fill="#F4ECE1"/>
+
+  <!-- Nose -->
+  <polygon points="96,84 104,84 100,89" fill="#E58A99"/>
+
+  <!-- Mouth -->
+  <path d="M100 89 L100 94 M94 94 C96 97 100 97 100 94 C100 97 104 97 106 94" stroke="#5A473D" stroke-width="2" stroke-linecap="round" fill="none"/>
+
+  <!-- Big Round Eyes -->
+  <g class="cat-eyes">
+    <!-- Left Eye -->
+    <ellipse cx="76" cy="74" rx="11" ry="13" fill="#3D271D"/>
+    <ellipse cx="76" cy="74" rx="10" ry="12" fill="#3A8E71"/>
+    <ellipse cx="76" cy="74" rx="6" ry="10" fill="#18231C"/>
+    <!-- Catchlights -->
+    <circle cx="73" cy="70" r="3.5" fill="#FFFFFF"/>
+    <circle cx="78" cy="77" r="1.5" fill="#FFFFFF"/>
+
+    <!-- Right Eye -->
+    <ellipse cx="124" cy="74" rx="11" ry="13" fill="#3D271D"/>
+    <ellipse cx="124" cy="74" rx="10" ry="12" fill="#3A8E71"/>
+    <ellipse cx="124" cy="74" rx="6" ry="10" fill="#18231C"/>
+    <!-- Catchlights -->
+    <circle cx="121" cy="70" r="3.5" fill="#FFFFFF"/>
+    <circle cx="126" cy="77" r="1.5" fill="#FFFFFF"/>
+  </g>
+
+  <!-- Whiskers -->
+  <g class="cat-whiskers" stroke="#FFFFFF" stroke-width="1.6" opacity="0.85" stroke-linecap="round">
+    <line x1="72" y1="88" x2="42" y2="84"/>
+    <line x1="72" y1="92" x2="40" y2="94"/>
+    <line x1="74" y1="96" x2="44" y2="103"/>
+    
+    <line x1="128" y1="88" x2="158" y2="84"/>
+    <line x1="128" y1="92" x2="160" y2="94"/>
+    <line x1="126" y1="96" x2="156" y2="103"/>
+  </g>
+</svg>
